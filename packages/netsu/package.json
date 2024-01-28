@@ -1,0 +1,30 @@
+{
+  "name": "@recompose/netsu",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Hono integration with vite and remix",
+  "scripts": {
+    "types": "tsc"
+  },
+  "exports": {
+    ".": {
+      "import": "./src/index.mjs",
+      "types": "./src/index.d.ts"
+    },
+    "./plugin": {
+      "import": "./src/plugin.mjs",
+      "types": "./src/plugin.d.ts"
+    }
+  },
+  "dependencies": {
+    "hono": "^3.12.8",
+    "remix-hono": "^0.0.15",
+    "@hono/node-server": "^1.5.0",
+    "@remix-run/server-runtime": "^2.5.1",
+    "@remix-run/node": "^2.5.1"
+  },
+  "devDependencies": {
+    "@hono/vite-dev-server": "^0.4.1",
+    "@tsconfig/node20": "^20.1.2"
+  }
+}

@@ -1,12 +1,8 @@
 {
   "private": true,
-  "name": "@airhelp/funnel-eslint",
+  "name": "eslint-config",
   "version": "0.0.0",
   "exports": {
-    "./funnel": {
-      "import": "./funnel.js",
-      "require": "./funnel.js"
-    },
     "./react-package": {
       "import": "./react-package.js",
       "require": "./react-package.js"
