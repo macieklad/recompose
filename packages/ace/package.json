@@ -1,0 +1,22 @@
+{
+  "name": "@recompose/ace",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Ace command line integration for remix",
+  "scripts": {
+    "build": "tsc && bun build -e @adonisjs/ace --outdir build --target node src/index.ts"
+  },
+  "exports": {
+    ".": {
+      "import": "./build/index.js",
+      "types": "./build/index.d.ts"
+    }
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "@adonisjs/ace": "^13.0.0",
+    "@tsconfig/node20": "^20.1.2"
+  }
+}

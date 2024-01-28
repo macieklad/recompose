@@ -3,9 +3,6 @@
   "version": "0.0.0",
   "type": "module",
   "description": "Hono integration with vite and remix",
-  "scripts": {
-    "types": "tsc"
-  },
   "exports": {
     ".": {
       "import": "./src/index.mjs",

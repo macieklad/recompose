@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@recompose/netsu": "workspace:*",
+    "@recompose/ace": "workspace:*",
     "@remix-run/node": "^2.5.1",
     "@remix-run/react": "^2.5.1",
     "@remix-run/serve": "^2.5.1",
@@ -33,7 +34,8 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "typescript": "^5.1.6",
     "vite": "^5.0.0",
-    "vite-tsconfig-paths": "^4.2.1"
+    "vite-tsconfig-paths": "^4.2.1",
+    "cowsay": "^1.6.0"
   },
   "engines": {
     "node": ">=18.0.0"

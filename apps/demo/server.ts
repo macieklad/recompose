@@ -3,7 +3,7 @@ import * as process from "process";
 
 const app = createApp();
 
-app.get("/api", (c) => c.json({ hello: "world" }));
+app.get("/hello-world", (c) => c.json({ hello: "world" }));
 
 await app.remix();
 
