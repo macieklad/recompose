@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "@airhelp/funnel-eslint",
+  "version": "0.0.0",
+  "exports": {
+    "./funnel": {
+      "import": "./funnel.js",
+      "require": "./funnel.js"
+    },
+    "./react-package": {
+      "import": "./react-package.js",
+      "require": "./react-package.js"
+    }
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.55.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/airhelp/funnels.git",
+    "directory": "packages/funnel-eslint"
+  }
+}
